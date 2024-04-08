@@ -33,7 +33,7 @@ aidan_rikic@Aidans-MacBook-Air lecture1 % ls
 Hello.class     Hello.java      README          messages
 ```
 Prior absolute path: /Users/aidan_rikic/lecture1 
-The output is a list of all the directories under the current directory, in this case lecture1. This is not an error. 
+The output is a list of all the directories under the current directory, in this case 'lecture1'. This is not an error. 
 
 * ls with *directory*
 ```
@@ -49,7 +49,7 @@ aidan_rikic@Aidans-MacBook-Air messages % ls en-us.txt
 en-us.txt
 ```
 Prior absolute path: /Users/aidan_rikic/lecture1/messages
-
+The output just lists the file that I used as the argument. This is not an error, but say I called 'ls en-us.txt' when I was currently in the 'lecture1' directory then it would return an error, this is because the file 'en-us.txt' is within 'messages' and not 'lecture1'. 
 
 3. cat 
 *
