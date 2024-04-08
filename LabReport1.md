@@ -1,4 +1,4 @@
-# Blog Post 1
+# Lab Report 1
 > ## Aidan Rikic
 ---
 1. cd
