@@ -1,7 +1,7 @@
 # Lab Report 1
 ## Aidan Rikic
 
-1. cd
+**cd**
 * cd with no arguments
 ```
 aidan_rikic@Aidans-MacBook-Air lecture1 % cd
@@ -26,7 +26,7 @@ cd: not a directory: en-us.txt
 Prior Absolute path: /Users/aidan_rikic/lecture1/messages \
 The output is an error because we tried calling a file using 'cd' which is calling the current directory. 
 
-2. ls 
+**ls** 
 * ls with no arguments
 ```
 aidan_rikic@Aidans-MacBook-Air lecture1 % ls
@@ -51,7 +51,7 @@ en-us.txt
 Prior absolute path: /Users/aidan_rikic/lecture1/messages \
 The output just lists the file that I used as the argument. This is not an error, but say I called 'ls en-us.txt' when I was currently in the 'lecture1' directory then it would return an error, this is because the file 'en-us.txt' is within 'messages' and not 'lecture1'. 
 
-3. cat 
+**cat** 
 * cat with no arguments
 ```
 aidan_rikic@Aidans-MacBook-Air lecture1 % cat
