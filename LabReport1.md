@@ -52,4 +52,26 @@ Prior absolute path: /Users/aidan_rikic/lecture1/messages
 The output just lists the file that I used as the argument. This is not an error, but say I called 'ls en-us.txt' when I was currently in the 'lecture1' directory then it would return an error, this is because the file 'en-us.txt' is within 'messages' and not 'lecture1'. 
 
 3. cat 
-*
+* cat with no arguments
+```
+aidan_rikic@Aidans-MacBook-Air lecture1 % cat
+
+```
+Prior absolute path: /Users/aidan_rikic/lecture1
+There wasn't exactly an output but instead using 'cat' with no arguments opened up a file within lecture1 and allowed me to type and edit it. This was not an error. 
+
+* cat with *directory*
+```
+aidan_rikic@Aidans-MacBook-Air lecture1 % cat messages
+cat: messages: Is a directory
+```
+Prior absolute path: /Users/aidan_rikic/lecture1
+The output was an error message telling us that the argument we offered wasn't a file, but instead a directory. Cat is only applicable to files. 
+
+* cat with *file*
+```
+aidan_rikic@Aidans-MacBook-Air messages % cat en-us.txt
+Hello World!
+```
+Prior absolute path: /Users/aidan_rikic/lecture1/messages
+The output printed the text that was inside the 'en-us.txt' file. This was not an error. 
