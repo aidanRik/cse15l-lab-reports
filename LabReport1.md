@@ -7,7 +7,7 @@
 aidan_rikic@Aidans-MacBook-Air lecture1 % cd
 aidan_rikic@Aidans-MacBook-Air ~ % 
 ```
-Prior Absolute path: /Users/aidan_rikic/lecture1
+Prior Absolute path: /Users/aidan_rikic/lecture1 \
 The output shows the tilde because using 'cd' with no argument sets the working directory to HOME if the variable exists.
 
 * cd with *directory*
