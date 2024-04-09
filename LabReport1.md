@@ -68,7 +68,7 @@ cat: messages: Is a directory
 Prior absolute path: /Users/aidan_rikic/lecture1 \
 The output was an error message telling us that the argument we offered wasn't a file, but instead a directory. Cat is only applicable to files. 
 
-*cat with *file*
+* cat with *file*
 ```
 aidan_rikic@Aidans-MacBook-Air messages % cat en-us.txt
 Hello World!
