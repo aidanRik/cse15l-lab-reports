@@ -1,6 +1,6 @@
 # Lab Report 1
 ## Aidan Rikic
----
+
 1. cd
 * cd with no arguments
 ```
