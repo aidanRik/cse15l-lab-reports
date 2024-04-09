@@ -1,5 +1,5 @@
 # Lab Report 1
-> ## Aidan Rikic
+## Aidan Rikic
 ---
 1. cd
 * cd with no arguments
