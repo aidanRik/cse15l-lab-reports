@@ -18,7 +18,9 @@ SS 2 of /add-message
 
 **Part 2**
 ![Image] (LabReport2SS1.png)
+
 ![Image] (LabReport2_SS2.png)
+
 ![Image] (LabReport2_SS3.png)
 
 **Part 3**
