@@ -49,17 +49,17 @@ class ChatServer {
 ```
 
 SS 1 of /add-message  
-![Image](LabReport2_SS5.png)  
+![Image](LabReport2_SS5.png) 
 1. In this implementation of ChatServer, the method being called is `String handleRequest`.  
-2. The relevant argument to `String handleRequest` is the `URI url` and the field `String current` which is empty and is what gets added to as we use the ChatServer.
-3. The field `String current` is added to based off the query given in `url`, in which we add the user name and the message they give.  
+2. The relevant argument to `String handleRequest` is the `URI(http://localhost:4000/add-message?s=Hello&user=jpolitz)` and the field `String current = ""` which is empty and is what gets added to as we use the ChatServer.
+3. The field `String current = ""` is added to based off the `queryString = "s=Hello&user=jpolitz"`, in which we add the user name and the message they give. The value of `current` changes from `""` to `jpolitz: Hello`.  
 
 SS 2 of /add-message  
 ![Image](LabReport2_SS4.png)  
 1. In this implementation of ChatServer, the method being called is `String handleRequest`.  
-2. The relevant argument to `String handleRequest` is the `URI url` and the field `String current` which is empty and is what gets added to as we use the ChatServer.
-3. The field `String current` is added to based off the query given in `url`, in which we add the user name and the message they give.  
-
+2. The relevant argument to `String handleRequest` is the `URI((http://localhost:4000/add-message?s=How are you&user=yash)` and the field `String current = "jpolitz: Hello` which has the past message from `user = jpolitz` and is what gets added to as we use the ChatServer.
+3. The field `String current` is added to based off the query `s=How are you&user=yash`, in which we add the user name and the message they give. The value of `current` changes from `jpolitz: Hello` to `jpolitz: Hello\n yash: How are you`
+  
 
 **Part 2**  
 ![Image](LabReport2SS1.png)  
